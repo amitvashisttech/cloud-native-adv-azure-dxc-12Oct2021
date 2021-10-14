@@ -14,8 +14,6 @@ spec:
       labels:
         app: helloworld-db
     spec:
-      imagePullSecrets:
-      - name: regcred
       containers:
       - name: k8s-demo
         image: amitvashist7/k8s-demo
